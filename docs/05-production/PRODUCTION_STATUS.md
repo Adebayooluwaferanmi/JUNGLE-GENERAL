@@ -2,31 +2,46 @@
 
 **Updated:** 2026-09-30
 
-## Current Creative Direction
-**REAL-HUMAN CONCEPT — ACTIVE**
+## Phase 1 — Human Canon Reconstruction
+**Status: COMPLETE at canon/document level; asset/shot filename backfill remains production inventory work.**
 
-The earlier animal/jungle allegory is superseded and must not drive new shots.
+## Active Concept
+**REAL-HUMAN CONCEPT — LOCKED**
 
-## Repository Correction
-Initial repository setup accidentally imported allegorical continuity (Owl Doctor / antelope family). Those rules have been removed from active canon.
+## Episode
+**Episode 1 — The Wait**
 
-## Immediate Priority
-Reconstruct the current production state from the post-transition human-character material.
+## Locked Principal Cast
+- Scientist Obinna
+- Dr. Talon
+- Mr. Okoro
+- Mrs. Okoro
+- Chidi Okoro
+- Dr. Adewale
 
-## Backfill Tasks
-- [ ] Recover the approved current human character roster and exact names.
-- [ ] Register canonical human identity references.
-- [ ] Recover the current storyline/sequence breakdown.
-- [ ] Register current human-world environments.
-- [ ] Backfill completed post-transition shots using actual filenames.
-- [ ] Reconstruct scene geography from current references.
-- [ ] Establish human dialogue eyelines/blocking.
-- [ ] Link approved shots through continuity handoffs.
-- [ ] Mark all animal-allegory assets SUPERSEDED.
-- [ ] Resume shot generation only from verified current state.
+## Locked Environments
+- Emergency Ward
+- Diagnostic Lab master
+- A — Specimen Reception
+- B — Obinna Analytical Workstation
+- C — Result Validation
 
-## Legacy Asset Note
-Previously generated animal-version assets—including files such as `Antelope_patient_in_laboratory_s…_20260914030602.mp4`—are development history, not evidence of current canon.
+## Locked Clinical Chain
+Fever/chills/weakness → malaria-vs-sepsis assessment → EDTA/FBC → questionable initial result → analyzer maintenance → ~20-minute delay → FBC rerun/comparison → malaria-film microscopy → parasite detection → validation/release → communication to Dr. Talon.
 
-## Principle
-The repository must describe the film as currently approved. Unknown post-transition details remain TBD rather than being reconstructed by assumption.
+## Completed Repository Corrections
+- [x] Animal allegory marked SUPERSEDED.
+- [x] Human concept made governing canon.
+- [x] Human principal cast recovered.
+- [x] Episode 1 clinical chain recovered.
+- [x] Current environments recovered.
+- [x] Emergency Ward human geography corrected.
+- [x] Medical role boundary recorded.
+- [x] Non-canonical “OKORO, CHIDI” patient-screen error recorded.
+
+## Remaining Inventory Work
+- [ ] Attach exact approved human character filenames to registry.
+- [ ] Attach exact environment filenames.
+- [ ] Backfill already-generated human shots using actual filenames.
+- [ ] Link shots through continuity handoffs.
+- [ ] Register current approved shot/end-frame state before generating further coverage.
