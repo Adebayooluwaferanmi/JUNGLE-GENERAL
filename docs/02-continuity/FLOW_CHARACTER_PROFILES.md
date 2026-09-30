@@ -6,15 +6,13 @@ Flow is not the source of truth for this information. If a Flow character loses 
 
 ## Voice Lock Protocol
 
-For each speaking character:
-1. audition an available Flow voice;
-2. select one permanent voice;
-3. record its exact displayed Flow voice name here;
-4. test one neutral line and one emotionally appropriate line;
-5. once approved, mark the voice **LOCKED**;
-6. do not change it between shots unless canon is deliberately revised.
+For each speaking character preserve four voice-control fields:
+1. **Voice asset/name** — exact displayed Flow voice or custom voice name;
+2. **Sample dialogue** — the text used to establish/audition the voice;
+3. **Customize performance** — exact behavioral/accent/delivery instruction;
+4. **Lock status** — recovered, candidate or locked.
 
-Voice names are intentionally not invented below.
+If a prior custom voice is recoverable in Flow, recover it before creating a replacement. Once approved, do not change it between shots unless canon is deliberately revised. Unknown voice names or settings remain `TO RECOVER / LOCK IN FLOW`; never invent them.
 
 ---
 
@@ -60,8 +58,12 @@ Mrs. Okoro is Mr. Okoro's wife and Chidi's mother. She is a civilian family memb
 
 **Canonical image:** `Chidi Okoro.webp`  
 **Role:** 18–20-year-old son of Mr. and Mrs. Okoro  
-**Flow voice:** TO LOCK IN FLOW  
-**Voice profile:** Young Nigerian male; concerned, attentive and urgent when necessary without overacting.
+**Flow voice:** `Fenrir custom – Chidi Okoro` — RECOVERED / LOCKED  
+**Voice type:** customized Flow voice  
+**Sample dialogue:** `I am Chidi Okoro, a young Nigerian male voice.`
+
+### Customize Performance — LOCKED
+Young adult Nigerian male voice. Natural Nigerian English. Energetic, confident and impatient without sounding cartoonishly aggressive. When challenging laboratory staff, speak quickly and assertively. When addressing senior doctors, immediately become calmer, softer and more respectful.
 
 ## Character Info — paste into Flow
 
