@@ -1,14 +1,20 @@
 # Reference Registry
 
-| Ref ID | Type | Subject | Scene/Shot | Status | Actual Filename / Path | Controls | Notes |
-|---|---|---|---|---|---|---|---|
-| JG-REF-ENV-LAB-001 | environment | Diagnostic Laboratory | TBD | LOCKED | ENVIRONMENT WIDE VIEW CONTEXT — exact filename pending asset registration | geography/look | Canonical laboratory environment |
+## Current Canon Rule
+Only references explicitly approved for the **real-human concept** may control current generation.
+
+| Ref ID | Type | Subject | Status | Actual Filename / Path | Controls | Notes |
+|---|---|---|---|---|---|---|
+| TBD | human character | TBD | TBD | TBD | identity/wardrobe | Awaiting reconstruction from post-transition assets |
+| TBD | environment | current human-world environment | TBD | TBD | geography/look | Awaiting verified current reference |
+
+## Legacy References
+Any Owl Doctor, antelope family/patient, beaver scientist, lion leadership or animal/jungle-hospital reference belongs to the superseded allegorical concept unless explicitly reclassified.
+
+**Legacy status: SUPERSEDED — DO NOT USE FOR CURRENT GENERATION**
+
+## Filename Rule
+Preserve actual uploaded/generated filenames wherever possible. Descriptive IDs are secondary.
 
 ## Status
 CANDIDATE · APPROVED · LOCKED · SUPERSEDED · REJECTED
-
-## Filename Rule
-Whenever possible, preserve the **actual uploaded/generated filename** in this registry. Descriptive shot IDs are secondary identifiers and must not destroy source traceability.
-
-## Reference Rule
-Presence in `assets/` does not make an asset canonical. Canon status is explicit.
