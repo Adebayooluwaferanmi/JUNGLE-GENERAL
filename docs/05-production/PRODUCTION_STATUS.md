@@ -1,37 +1,32 @@
 # Production Status
 
-**Last structured:** 2026-09-30
+**Updated:** 2026-09-30
 
-## Current Phase
-Active AI film production and continuity-system formalization.
+## Current Creative Direction
+**REAL-HUMAN CONCEPT — ACTIVE**
 
-## Current Working Area
-Arrival / Emergency / Diagnostic Laboratory continuity chain.
+The earlier animal/jungle allegory is superseded and must not drive new shots.
 
-## Known Completed Work to Backfill
-Existing images and video generated before repository initialization must be inventoried from source assets and prior production records.
+## Repository Correction
+Initial repository setup accidentally imported allegorical continuity (Owl Doctor / antelope family). Those rules have been removed from active canon.
 
-Known example source asset:
-- `Antelope_patient_in_laboratory_s…_20260914030602.mp4` — exact full filename/status to verify before registration.
+## Immediate Priority
+Reconstruct the current production state from the post-transition human-character material.
 
-## Locked Continuity Already Captured
-- 9:16 cinematic hyperrealistic target.
-- Emergency Ward: antelope family/patient camera-left.
-- Owl Doctor camera-right.
-- Diagnostic Laboratory tunnel at rear.
-- Camera remains on established side of 180° axis.
-- Diagnostic Laboratory wide-view environment is canonical.
-- Use actual uploaded/generated filenames in production records whenever possible.
+## Backfill Tasks
+- [ ] Recover the approved current human character roster and exact names.
+- [ ] Register canonical human identity references.
+- [ ] Recover the current storyline/sequence breakdown.
+- [ ] Register current human-world environments.
+- [ ] Backfill completed post-transition shots using actual filenames.
+- [ ] Reconstruct scene geography from current references.
+- [ ] Establish human dialogue eyelines/blocking.
+- [ ] Link approved shots through continuity handoffs.
+- [ ] Mark all animal-allegory assets SUPERSEDED.
+- [ ] Resume shot generation only from verified current state.
 
-## Immediate Production Tasks
-- [ ] Reconstruct master sequence/scene list from approved storyline.
-- [ ] Inventory previously approved character references.
-- [ ] Inventory environment references.
-- [ ] Backfill completed shots and their actual filenames.
-- [ ] Register current Owl Doctor / laboratory dialogue coverage.
-- [ ] Link each approved shot to its predecessor and successor.
-- [ ] Record unresolved continuity issues.
-- [ ] Continue generation only from registered continuity state.
+## Legacy Asset Note
+Previously generated animal-version assets—including files such as `Antelope_patient_in_laboratory_s…_20260914030602.mp4`—are development history, not evidence of current canon.
 
 ## Principle
-The repository should describe the film **as actually approved**, not retroactively invent details that have not been confirmed.
+The repository must describe the film as currently approved. Unknown post-transition details remain TBD rather than being reconstructed by assumption.
