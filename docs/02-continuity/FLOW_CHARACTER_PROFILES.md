@@ -20,7 +20,7 @@ If a prior custom voice is recoverable in Flow, recover it before creating a rep
 
 **Canonical image:** `Mr Okoro.webp`  
 **Role:** Episode 1 patient  
-**Flow voice:** TO LOCK IN FLOW  
+**Flow voice:** `Umbriel custom - Mr Okoro` — RECOVERED / LOCKED AS VOICE ASSET  
 **Voice profile:** Mature Nigerian male; physically weakened by illness; natural, restrained delivery.
 
 ## Character Info — paste into Flow
@@ -39,7 +39,7 @@ Mr. Okoro is a middle-aged Nigerian man and the patient at the centre of Episode
 
 **Canonical image:** `Mrs Okoro.webp`  
 **Role:** Mr. Okoro's wife / Chidi's mother  
-**Flow voice:** TO LOCK IN FLOW  
+**Flow voice:** `Callirrhoe custom - Mrs Okoro` — RECOVERED / LOCKED AS VOICE ASSET  
 **Voice profile:** Mature Nigerian female; worried but controlled; emotionally credible.
 
 ## Character Info — paste into Flow
@@ -82,7 +82,7 @@ Chidi Okoro is the 18–20-year-old son of Mr. and Mrs. Okoro. He is a civilian 
 
 **Canonical image:** `Dr. Talon.webp`  
 **Role:** Treating Emergency physician  
-**Flow voice:** TO LOCK IN FLOW  
+**Flow voice:** `Gacrux custom Dr-Talon` — RECOVERED / LOCKED AS VOICE ASSET  
 **Voice profile:** Nigerian female physician; calm, clear, clinically decisive; controlled urgency.
 
 ## Character Info — paste into Flow
@@ -102,7 +102,7 @@ Dr. Talon is the treating Emergency physician responsible for Mr. Okoro's immedi
 
 **Canonical image:** `Scientist Obinna.webp`  
 **Role:** Diagnostic laboratory scientist  
-**Flow voice:** TO LOCK IN FLOW  
+**Flow voice:** `Umbriel custom - Scientist Obinna` — RECOVERED / LOCKED AS VOICE ASSET  
 **Voice profile:** Mature Nigerian male; precise, measured, analytical; calm even under time pressure.
 
 ## Character Info — paste into Flow
@@ -123,7 +123,7 @@ Scientist Obinna is the diagnostic laboratory scientist whose work reveals the i
 
 **Canonical image:** `Dr. Adewale.webp`  
 **Role:** Medical Director  
-**Flow voice:** TO LOCK IN FLOW  
+**Flow voice:** `Algenib custom - Dr Adewale` — RECOVERED / LOCKED AS VOICE ASSET  
 **Voice profile:** Older Nigerian male; authoritative, composed and measured; senior leadership presence.
 
 ## Character Info — paste into Flow
@@ -151,3 +151,26 @@ Dr. Adewale is Jungle General's Medical Director. He is an experienced senior me
 - Civilian characters remain civilians.
 - Clinical and laboratory roles remain professionally distinct.
 - Character Info governs behaviour and role; canonical reference images govern visual identity.
+
+
+# Legacy Flow Metadata Contamination — 2026-09-30 Recovery Note
+
+The surviving Flow character pages revealed that several old Character Info fields still contain superseded animal-allegory descriptors. These are **NOT CANON** and must be replaced in Flow with the human Character Info in this document.
+
+Observed legacy terms include:
+- Mr. Okoro: “antelope patient”
+- Mrs. Okoro: “female antelope”
+- Dr. Talon: “golden-brown eagle owl”
+- Scientist Obinna: “Beaver Medical Laboratory Scientist” and beaver anatomy
+
+The custom **voice assets are recoverable and may be retained**; the contaminated animal Character Info must not be retained as behavioral or visual authority.
+
+Recovered voice assets:
+- Mr. Okoro — `Umbriel custom - Mr Okoro`
+- Mrs. Okoro — `Callirrhoe custom - Mrs Okoro`
+- Chidi Okoro — `Fenrir custom – Chidi Okoro`
+- Dr. Talon — `Gacrux custom Dr-Talon`
+- Scientist Obinna — `Umbriel custom - Scientist Obinna`
+- Dr. Adewale — `Algenib custom - Dr Adewale`
+
+Only Chidi's detailed Customize Performance instruction has so far been recovered verbatim. For the remaining five characters, recover the voice editor's sample dialogue and Customize Performance text before treating those subfields as locked.
