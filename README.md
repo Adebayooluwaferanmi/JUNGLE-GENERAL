@@ -1,53 +1,54 @@
-# JUNGLE GENERAL
+# JUNGLE GENERAL — The Invisible Workers
 
 > **AI Film Production Repository & Continuity Control System**
 
-JUNGLE GENERAL is a continuity-first AI-generated film project using **real human characters and a human-world cinematic treatment**. The earlier animal/jungle allegory is a **superseded development concept** and is not active production canon.
+JUNGLE GENERAL is a continuity-first, photorealistic AI-generated medical drama using **real human characters** in a Nigerian hospital world. The earlier animal allegory is **SUPERSEDED development material** and is not production canon.
 
-This repository is the single source of truth for story intent, characters, environments, cinematography, shot construction, AI generation, approved assets, continuity decisions and final assembly.
+## Current Canon — LOCKED
+- Episode 1: **The Wait**
+- Setting: Nigerian hospital with the established jungle root-and-rock exterior identity and realistic clinical interiors.
+- Primary format: **9:16 vertical**
+- Visual treatment: cinematic hyperrealism / photorealistic live action
+- Core dramatic lens: the often-invisible laboratory work behind clinical decisions and the consequences of waiting for reliable results.
 
-## Current Creative Direction — LOCKED
+### Episode 1 Principal Cast
+- **Scientist Obinna** — senior Medical Laboratory Scientist
+- **Dr. Talon** — physician
+- **Mr. Okoro** — patient
+- **Mrs. Okoro** — wife
+- **Chidi Okoro** — their son
+- **Dr. Adewale** — Medical Director/owner; principally relevant to later episodes
 
-**REAL-HUMAN CONCEPT**
+## Episode 1 Clinical Chain
+Mr. Okoro arrives seriously unwell with fever/chills/weakness. Dr. Talon considers **malaria vs sepsis**. A purple-top EDTA specimen reaches the laboratory. Obinna finds the initial FBC inconsistent with the clinical picture, investigates analyzer maintenance, performs required maintenance/cleaning and accepts an explicit **approximately 20-minute delay** rather than validate a questionable result. He reruns and compares the FBC, performs/requests malaria-film microscopy, parasites are detected, and the repeat FBC plus microscopy are validated and released. A positive malaria result supports malaria but does not automatically exclude bacterial sepsis; diagnosis and treatment remain Dr. Talon's responsibility.
 
-- Characters are portrayed as real human beings.
-- Story situations are staged as a believable human-world drama.
-- Do not generate Owl Doctor, antelope patients/family, beaver scientists, lion leadership or other animal-character substitutions from the former allegory.
-- Do not treat the old jungle-animal visual language as current canon.
-- Historical allegory assets may be retained only as **SUPERSEDED DEVELOPMENT MATERIAL** and must never be used automatically as current generation references.
+## Canon Environments
+1. Emergency Ward
+2. Diagnostic Laboratory — master environment
+3. A — Specimen Reception
+4. B — Obinna Analytical Workstation
+5. C — Result Validation
 
 ## Production Principle
 **Story first. Continuity always. Generation is production—not improvisation.**
 
-Every generated frame or clip must inherit the approved state of the current human-world story.
-
-## Production Format
-- Primary framing: **9:16 vertical**
-- Visual target: **cinematic hyperrealism / photorealistic live action**
-- Delivery target: **4K where supported**
-- Production approach: reference-driven, shot-based, continuity-controlled AI filmmaking
-
 ## Canon Hierarchy
-`CURRENT HUMAN STORY CANON → LOCKED CONTINUITY → APPROVED HUMAN CHARACTER/ENVIRONMENT REFERENCES → SCENE → SHOT → PROMPT → MODEL INTERPRETATION`
+`LOCKED HUMAN STORY → LOCKED CHARACTER/ENVIRONMENT CANON → CONTINUITY → SCENE → SHOT → REFERENCE PACKAGE → PROMPT → MODEL`
 
-Superseded allegorical material sits outside this hierarchy.
+## Workflow
+`CANON → SEQUENCE → SCENE → SHOT → REFERENCES → GENERATION → QC → APPROVAL → EDIT`
 
-## Core Workflow
-`CANON → SEQUENCE → SCENE → SHOT → REFERENCE PACKAGE → GENERATION → QC → APPROVAL → EDIT`
-
-## Repository Map
+## Repository
 - `docs/00-production-bible/` — governing canon
-- `docs/01-story/` — story/sequence/scene control
-- `docs/02-continuity/` — human character and spatial continuity
+- `docs/01-story/` — episode/sequence/scene control
+- `docs/02-characters/` — human character bible
+- `docs/02-continuity/` — spatial/state continuity
 - `docs/03-cinematography/` — camera grammar
-- `docs/04-ai-generation/` — Flow/generation protocol and references
-- `docs/05-production/` — shot registry and production tracking
+- `docs/04-ai-generation/` — Flow/generation protocol
+- `docs/05-production/` — shot registry and status
 - `docs/06-qc/` — approval gates
-- `assets/` — production assets
-- `templates/` — reusable production records
+- `assets/` — registered production assets
+- `templates/` — reusable records
 
-## Important Migration Notice
-Documentation created on 2026-09-30 initially imported continuity facts from the superseded animal allegory. That mix-up has been corrected. Any remaining legacy reference must be explicitly marked **SUPERSEDED** before reuse.
-
-## Operating Rule
-Never infer current human characters, names, blocking or environments by simply translating an old animal role into a human equivalent. Use only confirmed post-transition story decisions and approved human references. Unknown details remain **TBD** until recovered or approved.
+## Legacy Exclusion
+Owl Doctor, antelope patients/family, beaver scientists, lion leadership, paw icons, “Wildlife Care,” animal-character blocking and other allegorical material are **not current canon**. They must never be used automatically as references for the human production.
