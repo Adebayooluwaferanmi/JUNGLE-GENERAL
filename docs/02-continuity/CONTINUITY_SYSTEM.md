@@ -1,15 +1,19 @@
 # Continuity System
 
-## Objective
-Maintain one persistent story world across separately generated images and video clips.
+## Canon Scope
+This system governs the **current real-human version** of JUNGLE GENERAL.
+
+Animal-character continuity from the superseded allegory is not active canon.
 
 ## Handoff Rule
 **Exit state of Shot N = entry state of Shot N+1**, unless an explicit time/location discontinuity exists.
 
 ## Continuity Ledger
-For each approved shot record:
-- character positions and orientations
-- wardrobe and physical state
+For every approved human-world shot record:
+- human character identity
+- position/orientation
+- wardrobe/physical state
+- expression/performance state
 - held/carried objects
 - prop positions
 - vehicle position/orientation
@@ -19,36 +23,24 @@ For each approved shot record:
 - screen direction
 - action axis
 - action phase
-- damage/dirt/blood
+- damage/dirt/blood where applicable
 
 ## Spatial Continuity
-Each recurring location requires a geography record containing:
-- fixed landmarks
-- entrances/exits
-- furniture/equipment
-- foreground/midground/background zones
-- character zones
-- vehicle positions where applicable
-- established action axis
-- legal camera zone
+Each current location requires a geography record containing fixed architecture, entrances/exits, equipment/furniture, foreground/midground/background zones, character zones, vehicle positions, action axis and legal camera zone.
 
-A new camera angle reveals the same world; it does not regenerate a different layout.
+## Human Character Continuity
+Each recurring human character requires:
+- canonical face/identity references
+- physical/build anchors
+- hair/grooming
+- baseline wardrobe
+- scene-specific wardrobe state
+- injury/dirt/wetness state
+- carried props
+- emotional/action state
 
-## Emergency Ward — Locked Spatial Rule
-- antelope family/patient: camera-left
-- Owl Doctor: camera-right
-- Diagnostic Laboratory tunnel: rear
-- camera remains on established side of the 180° axis
-
-Changing focal length or shot size does not permit left/right inversion.
-
-## Character Continuity
-Each recurring character requires canonical identity references, physical anchors, baseline wardrobe, scene-specific wardrobe state, wetness/dirt/injury state, props and emotional/action state.
+## Legacy Warning
+Old statements such as “antelope camera-left” or “Owl Doctor camera-right” belong to the superseded allegorical version and must not constrain current production unless an equivalent human blocking decision has independently been confirmed.
 
 ## Change Control
-Any intentional deviation from locked continuity records:
-1. what changes;
-2. why;
-3. first affected shot;
-4. downstream shots;
-5. superseded references.
+Any intentional change to current locked continuity records what changes, why, first affected shot, downstream effects and superseded references.
