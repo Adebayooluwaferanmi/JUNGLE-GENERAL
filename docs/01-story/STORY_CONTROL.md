@@ -1,31 +1,31 @@
-# Story Control
+# Episode 1 Story Control — The Wait
 
-## Hierarchy
-**Film → Act → Sequence → Scene → Beat → Shot**
+## Core Dramatic Proposition
+A seriously ill patient's family experiences waiting as anxiety and delay, while inside the laboratory Scientist Obinna is doing the invisible work required to prevent a questionable result from becoming a clinical decision.
 
-The generation unit is the shot, but the shot is never authored independently of its scene and sequence.
+## Principal Characters
+Scientist Obinna, Dr. Talon, Mr. Okoro, Mrs. Okoro and Chidi Okoro. Dr. Adewale belongs to the wider human canon and is primarily relevant later.
 
-## Scene Record
-Every scene must define:
-- scene ID/title
-- act and sequence
-- story purpose
-- location and story time
-- weather/lighting
-- characters
-- entry state
-- dramatic beats
-- exit state
-- inherited continuity
-- downstream continuity
-- required references/assets
-- unresolved decisions
+## Locked Clinical Story Chain
+1. Mr. Okoro arrives seriously unwell: fever, chills/shivering, weakness and sweating.
+2. Mrs. Okoro and Chidi accompany him.
+3. Dr. Talon assesses him and considers **malaria vs sepsis**.
+4. Laboratory investigation includes an FBC from a purple-top EDTA specimen.
+5. Scientist Obinna recognizes that the initial FBC is inconsistent with the clinical picture.
+6. He investigates analyzer status/maintenance rather than blindly validating the result.
+7. Required cleaning/maintenance creates an explicit **approximately 20-minute delay**.
+8. Obinna reruns and compares the FBC.
+9. Malaria-film microscopy is performed/requested.
+10. Parasites are detected.
+11. The repeat FBC and microscopy findings are validated and released.
+12. Obinna communicates the laboratory outcome to Dr. Talon.
+13. Dr. Talon retains responsibility for diagnosis and treatment.
 
-## Beat Rule
-A beat is a meaningful change in action, information, emotion, objective or threat. Do not add model-generated actions merely to make a clip busier.
+## Medical Narrative Rule
+A positive malaria finding does **not** automatically exclude bacterial sepsis. Do not write or stage the result as if microscopy alone closes every differential diagnosis.
 
-## Existing Production Chain
-Current work includes the Arrival → Emergency → Diagnostic Laboratory chain. Previously approved outputs must be reconstructed into the registry using their actual uploaded/generated filenames wherever available.
+## Story Hierarchy
+**Film → Episode → Sequence → Scene → Beat → Shot**
 
-## Story Lock
-A generation prompt may clarify how a beat is photographed. It may not create a new beat unless the story specification is intentionally revised.
+## Generation Rule
+A shot may photograph or dramatize an approved beat; it may not create a new clinical event merely because the model generates it.
