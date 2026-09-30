@@ -1,33 +1,32 @@
-# Emergency Ward — Locked Geography
+# Emergency Ward Geography
 
-**Status: LOCKED**
+**Status: REQUIRES HUMAN-CONCEPT RECONSTRUCTION**
 
-This file is the spatial continuity authority for Emergency Ward coverage unless explicitly superseded.
+## Correction Notice
+The previous version of this file incorrectly promoted geography from the superseded animal allegory into current canon.
 
-## Established Relationships
+The following old constraints are **NOT current canon by default**:
+- antelope family/patient camera-left
+- Owl Doctor camera-right
+- animal-character eyelines/blocking
 
-From the established camera side:
-- **camera-left:** antelope family / patient zone
-- **camera-right:** Owl Doctor zone
-- **rear:** Diagnostic Laboratory tunnel / connection
-- **camera:** remains on the established side of the 180° axis during continuous coverage
+## Current Rule
+Emergency Ward geography must be reconstructed from the approved **real-human** production references and post-transition shots.
 
-## Continuity Consequences
-1. A close-up does not reset geography.
-2. Reverse-looking compositions must not accidentally swap character screen positions.
-3. Dialogue coverage must preserve eyelines consistent with these positions.
-4. New generations must not move the Diagnostic Laboratory connection to another wall.
-5. A model-generated aesthetically attractive layout is rejected if it contradicts this geography.
-6. If an axis crossing is narratively needed, design and register the reorientation explicitly.
-
-## Reference Requirement
-The canonical Emergency and Diagnostic Laboratory environment images should be added to the Reference Registry using their actual source filenames.
+Until that reconstruction is completed:
+- do not invent human replacements for old animal roles;
+- do not assume old left/right blocking automatically survived the concept change;
+- preserve the 180° rule for any currently established human scene axis;
+- derive architecture, entrances, exits, equipment and human blocking from approved current references.
 
 ## Shot Design Check
-Before generation ask:
-- Where is the camera physically standing?
-- Which direction is it facing?
-- Which side of the action axis is it on?
-- Where should each established character appear on screen?
-- What fixed architecture should be visible or implied?
-- Does the end frame preserve a usable state for the next shot?
+Before generating a current shot:
+1. identify the approved human reference;
+2. identify where the camera physically stands;
+3. identify the current action axis;
+4. verify human screen positions and eyelines;
+5. verify fixed architecture/equipment;
+6. define the required end state.
+
+## Historical Note
+The old animal-version geography may be retained separately for development history, but it must not drive current generation.
