@@ -1,53 +1,64 @@
-# Reference Registry — Human Production
+# Reference Registry
 
-Only explicitly approved **human-canon** references may control current generation.
+**Storage architecture:** Google Drive stores production media; GitHub stores canonical metadata, continuity authority and production relationships.
 
-## Recovered Human Assets
+| Ref ID | Type | Subject / Authority | Status | Actual Filename | Drive File ID | Drive Folder |
+|---|---|---|---|---|---|---|
+| JG-REF-CHAR-MRS-OKORO-001 | character | Mrs. Okoro identity; civilian family wardrobe baseline | LOCKED | `Mrs Okoro.webp` | `19Oq2ExO_mNDL4kPT2bjC06X303FTko-_` | `01_CHARACTERS` |
+| JG-REF-CHAR-MR-OKORO-001 | character | Mr. Okoro identity; Episode 1 patient | LOCKED | `Mr Okoro.webp` | `1L4MmrnHkyAPw9gTHYStKKLRWkrsTG0xb` | `01_CHARACTERS` |
+| JG-REF-CHAR-CHIDI-001 | character | Chidi Okoro identity; young adult son; civilian | LOCKED | `Chidi Okoro.webp` | `1-yEAiO-jO_10gaRnBlm_7SDG4dk6uh10` | `01_CHARACTERS` |
+| JG-REF-ENV-LAB-MASTER-001 | environment | Diagnostic Laboratory master look/geography | LOCKED | `LOCATION_MASTER_DIAGNOSTIC_LAB.webp` | `139GcJOXctGpZwdDZGgCrzchqDk-7cFlB` | `02_ENVIRONMENTS` |
+| JG-REF-ENV-LAB-A-001 | environment | Lab A — Specimen Reception | LOCKED | `LAB_A_SPECIMEN_RECEPTION.webp` | `1VFcWJ0q8fV5DVPvfp0QDTXBm0irkf7hh` | `02_ENVIRONMENTS` |
+| JG-REF-ENV-LAB-B-001 | environment | Lab B — Obinna Analytical Workstation | LOCKED | `LAB_B_OBINNA_ANALYTICAL_WORKSTATION.webp` | `1zVzXXXuaJdZ69CAaHXtsWpQ74i3-2JGJ` | `02_ENVIRONMENTS` |
+| JG-REF-ENV-LAB-C-001 | environment | Lab C — Result Validation | LOCKED | `LAB_C_RESULT_VALIDATION.webp` | `1clnovN03y6v13s5nmqKE2Rkchpsg3-Vi` | `02_ENVIRONMENTS` |
+| JG-REF-ENV-EXTERIOR-001 | environment | Jungle General exterior/storm/driveway world reference | LOCKED | `EXTERIOR REFERENCE.webp` | `1osGeMbGxaSSN15YoUTJpfe3f8rsY2AiM` | `02_ENVIRONMENTS` |
+| JG-REF-ENV-EMERG-REV-001 | environment/keyframe | Emergency reverse driveway: camera inside behind bed looking outward to SUV/driveway | LOCKED | `EMERGENCY_REVERSE_DRIVEWAY_01.jpg` | `1aaD6zN4o1uWgrXfP49KKiQ_zq1Ly7EWC` | `02_ENVIRONMENTS` |
 
-| Ref ID | Type | Subject / Use | Status | Actual Filename / Production Name | Authority / Notes |
-|---|---|---|---|---|---|
-| JG-REF-E01-EXT-001 | still | Exterior Emergency arrival establishing reference | CANDIDATE / RECOVERED | `Jungle General Hospital Emergency Arrival.png` | Human family + storm hospital exterior; not automatically a locked final frame |
-| JG-REF-E01-ARR-001 | still | Reverse-angle Emergency arrival geometry | LOCKED GEOMETRY REFERENCE | `Stormy Jungle Emergency Entrance.png` | Camera inside Emergency looking outward; establishes SUV/entrance/bed relationship |
-| JG-REF-E01-DLG-001 | still | Emergency bedside dialogue coverage | ACTIVE REFERENCE / RECOVERED | `Jungle General Dialogue Coverage.png` | Four-character bedside setup used for dialogue-camera development |
+## Google Drive Root
+- Folder: `JUNGLE GENERAL`
+- Folder ID: `1t5-Wgqf2xFkFhwhb8_i9Nz2fRgbKEFVq`
 
-## Locked Production References Whose Exact Binary Filename Is Not Yet Recovered
+## Canonical Laboratory Geography
+The laboratory reference family is organized as:
 
-| Ref ID | Type | Production Reference Name | Status | Controls |
-|---|---|---|---|---|
-| JG-ENV-ER | environment | `JUNGLE_GENERAL_EMERGENCY_01` | LOCKED | Emergency geography/look |
-| JG-ENV-LAB-MASTER | environment | `LOCATION_MASTER_DIAGNOSTIC_LAB` | LOCKED | Master laboratory geography |
-| JG-ENV-LAB-A | environment | `LAB_A_SPECIMEN_RECEPTION` | LOCKED | Specimen Reception geography |
-| JG-ENV-LAB-B | environment | `LAB_B_OBINNA_ANALYTICAL_WORKSTATION` | LOCKED | Obinna analytical-workstation geography |
-| JG-ENV-LAB-C | environment | `LAB_C_RESULT_VALIDATION` | LOCKED | Result-validation geography |
+`LOCATION_MASTER_DIAGNOSTIC_LAB → LAB_A_SPECIMEN_RECEPTION → LAB_B_OBINNA_ANALYTICAL_WORKSTATION → LAB_C_RESULT_VALIDATION`
 
-## Character Canon
+These images define different production zones within the same diagnostic-laboratory world. They are not interchangeable shot backgrounds.
 
-| Ref ID | Character | Status | Exact Binary Filename |
-|---|---|---|---|
-| JG-CHAR-OBINNA | Scientist Obinna | LOCKED CHARACTER DESIGN | not yet recovered |
-| JG-CHAR-TALON | Dr. Talon | LOCKED CHARACTER DESIGN | not yet recovered |
-| JG-CHAR-MR-OKORO | Mr. Okoro | LOCKED CHARACTER DESIGN | not yet recovered |
-| JG-CHAR-MRS-OKORO | Mrs. Okoro | LOCKED CHARACTER DESIGN | not yet recovered |
-| JG-CHAR-CHIDI | Chidi Okoro | LOCKED CHARACTER DESIGN | not yet recovered |
-| JG-CHAR-ADEWALE | Dr. Adewale | LOCKED CHARACTER DESIGN | not yet recovered |
+## Character Rules
+### Mrs. Okoro
+- family member / wife
+- civilian
+- never convert to nurse, doctor, laboratory worker or other clinical staff without an explicit story revision
 
-## Arrival Geometry Authority
-The correct reverse angle is from **inside Emergency behind the foot of the hospital bed, looking outward through the same cave entrance**. The SUV is outside facing toward camera with headlights on; the jungle road recedes behind it. Do not create a duplicate hospital facade outside.
+### Mr. Okoro
+- Episode 1 patient
+- identity must remain stable from arrival through Emergency treatment
 
-For the family-walk arrival state:
-- SUV already stationary.
-- Mr. Okoro already out of the vehicle.
-- Mrs. Okoro supports his left side.
-- Chidi supports his right side.
-- Mrs. Okoro and Chidi are civilians.
-- They walk directly toward the waiting bed.
-- Rain remains outside; clinical interior remains dry.
-- No axis crossing.
+### Chidi Okoro
+- young adult son
+- civilian
+- may interact at the public/specimen-reception boundary but must not be visually converted into laboratory or clinical staff
+
+## Environment Rules
+### Exterior Reference
+Controls the larger Jungle General exterior visual world: storm, jungle/root-integrated hospital architecture, driveway and approach atmosphere.
+
+### Emergency Reverse Driveway
+Controls the reverse spatial relationship from inside Emergency: bed foreground/interior → Emergency entrance → exterior driveway/SUV. It is a geography reference, not permission to redesign the exterior.
+
+## Status Vocabulary
+- CANDIDATE
+- APPROVED
+- LOCKED
+- SUPERSEDED
+- REJECTED
 
 ## Filename Rule
-Preserve the **actual uploaded/generated filename** whenever recovered. JG IDs supplement—not replace—source traceability.
+Preserve the **actual uploaded/generated filename**. Stable JG reference IDs are metadata identifiers and must not replace source traceability.
 
-## Legacy / Rejected Material
-- All Owl Doctor, antelope, beaver, lion, paw-icon, “Wildlife Care,” and animal-role references are **SUPERSEDED — DO NOT USE**.
-- Any validation screen identifying **“OKORO, CHIDI”** as the patient is non-canonical. Mr. Okoro is the patient; Chidi is his son.
-- The first human Flow arrival animation is **REJECTED / SUPERSEDED**: it made the family emerge from camera-left/the woods and incorrectly dressed Mrs. Okoro/Chidi as medical staff. Its exact video filename has not yet been recovered.
+## Storage Rule
+Google Drive file ID is the persistent media locator. Do not duplicate large production binaries in GitHub merely to make them accessible.
+
+## Canon Rule
+Presence in Drive does not make an asset canonical. Canon status is explicit in this registry.
