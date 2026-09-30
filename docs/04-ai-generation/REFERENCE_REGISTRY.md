@@ -13,6 +13,10 @@
 | JG-REF-ENV-LAB-C-001 | environment | Lab C — Result Validation | LOCKED | `LAB_C_RESULT_VALIDATION.webp` | `1clnovN03y6v13s5nmqKE2Rkchpsg3-Vi` | `02_ENVIRONMENTS` |
 | JG-REF-ENV-EXTERIOR-001 | environment | Jungle General exterior/storm/driveway world reference | LOCKED | `EXTERIOR REFERENCE.webp` | `1osGeMbGxaSSN15YoUTJpfe3f8rsY2AiM` | `02_ENVIRONMENTS` |
 | JG-REF-ENV-EMERG-REV-001 | environment/keyframe | Emergency reverse driveway: camera inside behind bed looking outward to SUV/driveway | LOCKED | `EMERGENCY_REVERSE_DRIVEWAY_01.jpg` | `1aaD6zN4o1uWgrXfP49KKiQ_zq1Ly7EWC` | `02_ENVIRONMENTS` |
+| JG-REF-CHAR-OBINNA-001 | character | Scientist Obinna identity; diagnostic laboratory scientist | LOCKED | `Scientist Obinna.webp` | `1wBnOUgS-KD2P7iASsE0_Elia-4xwzQ--` | `01_CHARACTERS` |
+| JG-REF-CHAR-TALON-001 | character | Dr. Talon identity; treating Emergency physician | LOCKED | `Dr. Talon.webp` | `1HkfWhy4uapiRMx3B1SJOAd55hRWBEx5G` | `01_CHARACTERS` |
+| JG-REF-CHAR-ADEWALE-001 | character | Dr. Adewale identity; Medical Director | LOCKED | `Dr. Adewale.webp` | `15okJoiYsuSTTQKPDrFSmNi3M0Ntidb9s` | `01_CHARACTERS` |
+| JG-REF-ENV-JG01-001 | environment | Jungle General Emergency/Diagnostic Lab interior relationship master | LOCKED | `JUNGLE_GENERAL_01.webp` | `1IP1aIium_yvcj5pB5QWA-mME2YoQtehY` | `02_ENVIRONMENTS` |
 
 ## Google Drive Root
 - Folder: `JUNGLE GENERAL`
@@ -62,3 +66,27 @@ Google Drive file ID is the persistent media locator. Do not duplicate large pro
 
 ## Canon Rule
 Presence in Drive does not make an asset canonical. Canon status is explicit in this registry.
+
+
+## Additional Human Character Authorities
+
+### Scientist Obinna
+- diagnostic laboratory scientist
+- `Scientist Obinna.webp` is the identity/appearance authority
+- laboratory role must remain distinct from physician roles
+- use the laboratory environment references separately for geography; the portrait does not redefine lab architecture
+
+### Dr. Talon
+- treating Emergency physician
+- `Dr. Talon.webp` is the identity/appearance authority
+- physician wardrobe/clinical role must remain stable through Emergency coverage
+
+### Dr. Adewale
+- Medical Director
+- `Dr. Adewale.webp` is the identity/appearance authority
+- office portrait defines character identity and role presentation; it does not by itself establish every future office camera angle
+
+### JUNGLE_GENERAL_01
+- interior world/geography reference connecting the Emergency Ward environment with the Diagnostic Laboratory direction
+- use to preserve the established Jungle General root-integrated architecture and clinical interior relationship
+- do not treat signage text generated inside the image as screenplay dialogue or as authority over written canon
