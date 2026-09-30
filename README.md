@@ -2,75 +2,52 @@
 
 > **AI Film Production Repository & Continuity Control System**
 
-JUNGLE GENERAL is a continuity-first AI-generated film project. This repository is the **single source of truth** for story intent, characters, environments, cinematography, shot construction, AI generation, approved assets, continuity decisions, and final assembly.
+JUNGLE GENERAL is a continuity-first AI-generated film project using **real human characters and a human-world cinematic treatment**. The earlier animal/jungle allegory is a **superseded development concept** and is not active production canon.
+
+This repository is the single source of truth for story intent, characters, environments, cinematography, shot construction, AI generation, approved assets, continuity decisions and final assembly.
+
+## Current Creative Direction — LOCKED
+
+**REAL-HUMAN CONCEPT**
+
+- Characters are portrayed as real human beings.
+- Story situations are staged as a believable human-world drama.
+- Do not generate Owl Doctor, antelope patients/family, beaver scientists, lion leadership or other animal-character substitutions from the former allegory.
+- Do not treat the old jungle-animal visual language as current canon.
+- Historical allegory assets may be retained only as **SUPERSEDED DEVELOPMENT MATERIAL** and must never be used automatically as current generation references.
 
 ## Production Principle
-
 **Story first. Continuity always. Generation is production—not improvisation.**
 
-Every generated frame or clip must inherit the approved state of the story world. A visually impressive output that breaks character identity, geography, wardrobe, props, lighting, screen direction, action state, or narrative intent is not production-ready.
+Every generated frame or clip must inherit the approved state of the current human-world story.
 
 ## Production Format
-
 - Primary framing: **9:16 vertical**
 - Visual target: **cinematic hyperrealism / photorealistic live action**
 - Delivery target: **4K where supported**
 - Production approach: reference-driven, shot-based, continuity-controlled AI filmmaking
 
-## Repository Map
+## Canon Hierarchy
+`CURRENT HUMAN STORY CANON → LOCKED CONTINUITY → APPROVED HUMAN CHARACTER/ENVIRONMENT REFERENCES → SCENE → SHOT → PROMPT → MODEL INTERPRETATION`
 
-| Area | Purpose |
-|---|---|
-| `docs/00-production-bible/` | Canon, creative intent, visual language, non-negotiables |
-| `docs/01-story/` | Story, sequences, scenes, beats and chronology |
-| `docs/02-continuity/` | Characters, wardrobe, props, vehicles, environments and state tracking |
-| `docs/03-cinematography/` | Camera grammar, framing, movement and spatial rules |
-| `docs/04-ai-generation/` | Flow strategy, prompt architecture, references and generation protocol |
-| `docs/05-production/` | Shot registry, generation logs, approvals and edit handoff |
-| `docs/06-qc/` | Continuity and technical acceptance gates |
-| `assets/` | Approved production references and generated media |
-| `templates/` | Reusable production records |
+Superseded allegorical material sits outside this hierarchy.
 
 ## Core Workflow
-
 `CANON → SEQUENCE → SCENE → SHOT → REFERENCE PACKAGE → GENERATION → QC → APPROVAL → EDIT`
 
-A shot may advance only when its upstream continuity state is known.
+## Repository Map
+- `docs/00-production-bible/` — governing canon
+- `docs/01-story/` — story/sequence/scene control
+- `docs/02-continuity/` — human character and spatial continuity
+- `docs/03-cinematography/` — camera grammar
+- `docs/04-ai-generation/` — Flow/generation protocol and references
+- `docs/05-production/` — shot registry and production tracking
+- `docs/06-qc/` — approval gates
+- `assets/` — production assets
+- `templates/` — reusable production records
 
-## Status Vocabulary
-
-- **PLANNED** — specified but not generated.
-- **GENERATING** — active generation/iteration.
-- **REVIEW** — candidate exists and requires QC.
-- **APPROVED** — accepted as continuity canon.
-- **LOCKED** — must not change without an explicit continuity revision.
-- **REJECTED** — not usable; retain diagnostic generation notes where useful.
-
-## Asset Naming
-
-Use stable IDs rather than descriptive filenames alone:
-
-`JG_[SEQ]_[SCENE]_[SHOT]_[ASSET-TYPE]_[VERSION]`
-
-Example: `JG_S01_SC03_SH007_KEYFRAME_v003.png`.
-
-When an original uploaded/generated filename already exists, preserve that filename in the Reference Registry so the production record can be traced back to the actual source asset.
-
-## Current Production Context
-
-The active film work includes the Arrival / Emergency / Diagnostic Laboratory continuity chain. Existing approved images and clips from production must be registered before being treated as locked repository canon.
-
-Known locked production rules include:
-
-- Emergency Ward: antelope family/patient remain camera-left.
-- Owl Doctor remains camera-right.
-- Diagnostic Laboratory tunnel remains at the rear.
-- Camera remains on the established side of the 180° axis unless an intentional reorientation shot is designed.
-- The approved Diagnostic Laboratory wide-view reference governs laboratory geography.
-- Continuity takes priority over visually impressive but spatially inconsistent generations.
+## Important Migration Notice
+Documentation created on 2026-09-30 initially imported continuity facts from the superseded animal allegory. That mix-up has been corrected. Any remaining legacy reference must be explicitly marked **SUPERSEDED** before reuse.
 
 ## Operating Rule
-
-Do not silently rewrite canon. Any change affecting an approved character, environment, geography, prop, wardrobe state, lighting state, screen direction, action or story event must be recorded as a continuity decision.
-
-Start with the [Production Bible](docs/00-production-bible/PRODUCTION_BIBLE.md), [Continuity System](docs/02-continuity/CONTINUITY_SYSTEM.md), [Camera Bible](docs/03-cinematography/CAMERA_BIBLE.md), [AI Generation Protocol](docs/04-ai-generation/AI_GENERATION_PROTOCOL.md), and [Master Shot Registry](docs/05-production/SHOT_REGISTRY.md).
+Never infer current human characters, names, blocking or environments by simply translating an old animal role into a human equivalent. Use only confirmed post-transition story decisions and approved human references. Unknown details remain **TBD** until recovered or approved.
