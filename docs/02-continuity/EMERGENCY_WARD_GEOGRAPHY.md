@@ -1,32 +1,29 @@
-# Emergency Ward Geography
+# Emergency Ward Geography — Human Canon
 
-**Status: REQUIRES HUMAN-CONCEPT RECONSTRUCTION**
+**Status: LOCKED at environment level; shot-specific human blocking is tracked per scene/shot.**
 
-## Correction Notice
-The previous version of this file incorrectly promoted geography from the superseded animal allegory into current canon.
+## Established Environment
+The Emergency Ward belongs to the realistic Nigerian hospital interior within the broader root-and-rock Jungle General architectural identity.
 
-The following old constraints are **NOT current canon by default**:
-- antelope family/patient camera-left
-- Owl Doctor camera-right
-- animal-character eyelines/blocking
+### Fixed Visual Geography
+- central patient bed
+- screen-left: red trolley / shelving zone
+- screen-right: patient monitor, oxygen cylinder and blue curtain zone
+- protected clinical interior remains dry
+- rain/storm remains outside when the storm continuity is active
 
-## Current Rule
-Emergency Ward geography must be reconstructed from the approved **real-human** production references and post-transition shots.
+## Human Use
+Mr. Okoro is the Episode 1 patient. Mrs. Okoro and Chidi accompany him. Dr. Talon assesses him.
 
-Until that reconstruction is completed:
-- do not invent human replacements for old animal roles;
-- do not assume old left/right blocking automatically survived the concept change;
-- preserve the 180° rule for any currently established human scene axis;
-- derive architecture, entrances, exits, equipment and human blocking from approved current references.
+Do not derive their left/right blocking from the obsolete antelope/Owl Doctor version. Human blocking is established from approved human shots and then preserved through the scene.
 
-## Shot Design Check
-Before generating a current shot:
-1. identify the approved human reference;
-2. identify where the camera physically stands;
-3. identify the current action axis;
-4. verify human screen positions and eyelines;
-5. verify fixed architecture/equipment;
-6. define the required end state.
+## Camera Rule
+For each coverage setup:
+1. define camera's physical position;
+2. define action axis;
+3. preserve established screen direction/eyelines;
+4. preserve fixed equipment/architecture;
+5. define entry and exit states.
 
-## Historical Note
-The old animal-version geography may be retained separately for development history, but it must not drive current generation.
+## Legacy Exclusion
+The former “antelope camera-left / Owl Doctor camera-right” rule is explicitly SUPERSEDED.
