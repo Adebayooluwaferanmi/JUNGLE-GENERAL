@@ -1,46 +1,33 @@
-# Continuity System
-
-## Canon Scope
-This system governs the **current real-human version** of JUNGLE GENERAL.
-
-Animal-character continuity from the superseded allegory is not active canon.
+# Continuity System — Human Canon
 
 ## Handoff Rule
-**Exit state of Shot N = entry state of Shot N+1**, unless an explicit time/location discontinuity exists.
+**Exit state of Shot N = entry state of Shot N+1** unless the story deliberately cuts across time/location.
 
-## Continuity Ledger
-For every approved human-world shot record:
-- human character identity
-- position/orientation
-- wardrobe/physical state
-- expression/performance state
+## Track Per Shot
+- human identity
+- body position/orientation
+- wardrobe
+- patient physical state
+- expression/emotion
 - held/carried objects
+- specimen/equipment state
 - prop positions
-- vehicle position/orientation
-- location geography
+- environment geography
 - weather/wetness
 - lighting/time
 - screen direction
 - action axis
 - action phase
-- damage/dirt/blood where applicable
 
-## Spatial Continuity
-Each current location requires a geography record containing fixed architecture, entrances/exits, equipment/furniture, foreground/midground/background zones, character zones, vehicle positions, action axis and legal camera zone.
+## Clinical Continuity
+Clinical and laboratory actions must also maintain procedural state. Example:
+`specimen received → initial FBC → discrepancy recognized → analyzer maintenance → rerun → comparison → microscopy → parasite detection → validation/release → clinician communication`.
 
-## Human Character Continuity
-Each recurring human character requires:
-- canonical face/identity references
-- physical/build anchors
-- hair/grooming
-- baseline wardrobe
-- scene-specific wardrobe state
-- injury/dirt/wetness state
-- carried props
-- emotional/action state
+Do not show a downstream result before its prerequisite step has occurred.
 
-## Legacy Warning
-Old statements such as “antelope camera-left” or “Owl Doctor camera-right” belong to the superseded allegorical version and must not constrain current production unless an equivalent human blocking decision has independently been confirmed.
+## Role Boundary
+- **Obinna:** laboratory analysis, verification, correlation and validation/release within the story.
+- **Dr. Talon:** clinical assessment, diagnosis and treatment decisions.
 
-## Change Control
-Any intentional change to current locked continuity records what changes, why, first affected shot, downstream effects and superseded references.
+## Legacy Exclusion
+Animal-character identities, blocking, paw imagery, “Wildlife Care,” and animal-role equivalents are SUPERSEDED and cannot constrain current human shots.
