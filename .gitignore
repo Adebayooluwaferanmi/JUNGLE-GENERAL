@@ -1,0 +1,19 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+~*
+
+# Local production scratch
+scratch/
+exports/
+renders-temp/
+prompt-tests/
+
+# Do not commit local secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
