@@ -174,3 +174,57 @@ Recovered voice assets:
 - Dr. Adewale — `Algenib custom - Dr Adewale`
 
 Only Chidi's detailed Customize Performance instruction has so far been recovered verbatim. For the remaining five characters, recover the voice editor's sample dialogue and Customize Performance text before treating those subfields as locked.
+
+
+# Recovered Original Voice Design — 2026-09-18
+
+These specifications were recovered from the original voice-design conversation and supersede generic voice-profile summaries where they differ.
+
+## Mr. Okoro
+**Voice asset:** `Umbriel custom - Mr Okoro`  
+**Recovered sample dialogue visible in Flow:** `Hi there, i am a Mature Nigerian male`
+
+**Customize performance — RECOVERED ORIGINAL:**  
+Mature Nigerian male working-class voice in his 50s. Natural Nigerian English, conversational and believable. Firm, impatient and questioning when frustrated, but not theatrical or constantly angry. When addressing senior doctors, his tone becomes noticeably more respectful and cooperative.
+
+## Mrs. Okoro
+**Voice asset:** `Callirrhoe custom - Mrs Okoro`  
+**Recovered sample dialogue visible in Flow:** `I am Mature Nigerian female`
+
+**Customize performance — RECOVERED ORIGINAL:**  
+Mature Nigerian female, natural Nigerian English, warm normally but breathless and emotionally strained during Mr. Okoro’s emergency. Occasional Nigerian expressions under stress.
+
+## Scientist Obinna
+**Voice asset:** `Umbriel custom - Scientist Obinna`  
+**Recovered sample dialogue visible in Flow:** `Hi there! i'm a Mature Nigerian male professional voice with Measured, articulate polished Nigerian English.`
+
+**Customize performance — RECOVERED ORIGINAL:**  
+Mature Nigerian male, polished Nigerian English, medium-low register, calm and measured, quietly authoritative. No theatrical “professor” voice and no automatic Pidgin.
+
+**Recovered performance-test dialogue:**  
+- `This pattern doesn't fit.`
+- `So we make sure we're right.`
+- `The repeat result changes the picture. I'm validating it now.`
+
+## Dr. Talon
+**Voice asset:** `Gacrux custom Dr-Talon`  
+**Recovered sample dialogue visible in Flow:** `Hi, there`
+
+**Customize performance — RECOVERED ORIGINAL:**  
+Mature Nigerian female physician, educated Nigerian English, confident medium-low register, crisp articulation, controlled authority. When irritated, her speech becomes shorter and sharper and she may naturally slip into light Nigerian Pidgin—but never exaggerated or comedic.
+
+**Recovered performance-test dialogue:**  
+`I know what I suspect. That is not the same as knowing.`
+
+## Dr. Adewale
+**Voice asset:** `Algenib custom - Dr Adewale`  
+**Recovered sample dialogue visible in Flow:** `If e easy, collect JAMB form go study Medicine.`
+
+**Customize performance — RECOVERED ORIGINAL:**  
+Mature Nigerian male executive, polished English, calm and persuasive, becoming casually dismissive rather than loud when challenged.
+
+## Chidi Okoro
+See the locked Chidi profile above. His full custom performance instruction was recovered directly from Flow and is already authoritative.
+
+## Recovery Rule
+The original voice-design specification controls intended vocal characterization. The surviving Flow custom voice asset controls the actual generated voice identity. Keep both. Do not overwrite a recovered custom voice merely because a generic Flow voice sounds similar.
