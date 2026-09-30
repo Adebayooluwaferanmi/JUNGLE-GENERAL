@@ -3,45 +3,67 @@
 **Updated:** 2026-09-30
 
 ## Phase 1 — Human Canon Reconstruction
-**Status: COMPLETE at canon/document level; asset/shot filename backfill remains production inventory work.**
+**Status: COMPLETE**
+
+## Phase 2 — Human Asset & Shot Inventory
+**Status: COMPLETE FOR RECOVERABLE EVIDENCE; ongoing registration continues as additional source assets are surfaced.**
 
 ## Active Concept
 **REAL-HUMAN CONCEPT — LOCKED**
 
 ## Episode
-**Episode 1 — The Wait**
+**Episode 1 — THE WAIT** — 90 seconds, vertical 9:16 Nigerian medical thriller/social drama.
 
-## Locked Principal Cast
-- Scientist Obinna
-- Dr. Talon
-- Mr. Okoro
-- Mrs. Okoro
-- Chidi Okoro
-- Dr. Adewale
+## Recovered Human Production Assets
+- `Jungle General Hospital Emergency Arrival.png`
+- `Stormy Jungle Emergency Entrance.png`
+- `Jungle General Dialogue Coverage.png`
+- `Jungle_General_Episode1_Handoff.pdf` — production handoff/source evidence
+- canonical screenplay source recovered from production records
 
-## Locked Environments
-- Emergency Ward
-- Diagnostic Lab master
-- A — Specimen Reception
-- B — Obinna Analytical Workstation
-- C — Result Validation
+## Locked Named Environment References
+- `JUNGLE_GENERAL_EMERGENCY_01`
+- `LOCATION_MASTER_DIAGNOSTIC_LAB`
+- `LAB_A_SPECIMEN_RECEPTION`
+- `LAB_B_OBINNA_ANALYTICAL_WORKSTATION`
+- `LAB_C_RESULT_VALIDATION`
 
-## Locked Clinical Chain
-Fever/chills/weakness → malaria-vs-sepsis assessment → EDTA/FBC → questionable initial result → analyzer maintenance → ~20-minute delay → FBC rerun/comparison → malaria-film microscopy → parasite detection → validation/release → communication to Dr. Talon.
+The exact binary filenames for the five named environment masters have not yet been recovered; their production reference names remain authoritative.
 
-## Completed Repository Corrections
-- [x] Animal allegory marked SUPERSEDED.
-- [x] Human concept made governing canon.
-- [x] Human principal cast recovered.
-- [x] Episode 1 clinical chain recovered.
-- [x] Current environments recovered.
-- [x] Emergency Ward human geography corrected.
-- [x] Medical role boundary recorded.
-- [x] Non-canonical “OKORO, CHIDI” patient-screen error recorded.
+## Explicit Rejection
+The first Flow family-arrival animation is **REJECTED / SUPERSEDED** because it:
+- made the family emerge from camera-left/the woods;
+- dressed Mrs. Okoro and Chidi as medical staff.
 
-## Remaining Inventory Work
-- [ ] Attach exact approved human character filenames to registry.
-- [ ] Attach exact environment filenames.
-- [ ] Backfill already-generated human shots using actual filenames.
-- [ ] Link shots through continuity handoffs.
-- [ ] Register current approved shot/end-frame state before generating further coverage.
+Exact rejected-video filename remains unverified.
+
+## Current Continuity Anchor
+Arrival starts **after the car exit**:
+- family already outside in front of stationary SUV;
+- Mr. Okoro center, ill and supported;
+- Mrs. Okoro on his left;
+- Chidi on his right;
+- both relatives in civilian clothing;
+- direct movement toward waiting bed;
+- rain outside only;
+- Emergency interior dry;
+- 32mm low camera behind bed;
+- subtle push-in;
+- no cut or axis crossing.
+
+## Current Production Frontier
+**Emergency arrival → bed handoff → Scene 3 dialogue coverage.**
+
+Do not jump to laboratory generation until the Emergency continuity chain is approved.
+
+## Phase 2 Outcome
+- [x] Recover actual human asset filenames where evidence exists.
+- [x] Separate references from finished/generated shots.
+- [x] Register rejected arrival attempt.
+- [x] Assign permanent Episode 1 shot IDs.
+- [x] Map full screenplay through Scene 13.
+- [x] Record current production frontier.
+- [x] Preserve unknown filenames as unknown rather than inventing them.
+
+## Next Phase
+**Phase 3 — Emergency Arrival Completion & Dialogue Coverage**
