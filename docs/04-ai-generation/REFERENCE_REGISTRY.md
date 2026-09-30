@@ -25,9 +25,22 @@ The following four generated images are approved as coverage of **one continuous
 | Ref ID | Canonical Filename | Source Library Filename | Library File ID | Status | Authority |
 |---|---|---|---|---|---|
 | JG-REF-ENV-EMERG-ARRIVAL-001 | `JG_ENV_EMERGENCY_COVERED_ARRIVAL_TRANSITION_MASTER_01.png` | `Rainy Jungle Hospital Emergency Entrance.png` | `file_00000000c3e082109d92430acf2ff41a` | LOCKED | exterior/interior transition geography; covered weather-protected arrival |
+
 | JG-REF-ENV-EMERG-INT-001 | `JG_ENV_EMERGENCY_INTERIOR_MASTER_01.png` | `Jungle Hospital Emergency Ward.png` | `file_00000000053481f4b570139f5fd478aa` | LOCKED | Emergency interior geography |
 | JG-REF-ENV-EMERG-BAY-001 | `JG_ENV_EMERGENCY_TREATMENT_BAY_MASTER_01.png` | `Jungle Clinic Emergency Corridor.png` | `file_00000000521081f4b9be040efe9a4700` | LOCKED | recessed treatment-bay spatial coverage |
 | JG-REF-ENV-EMERG-LAB-TRANS-001 | `JG_ENV_EMERGENCY_TO_DIAGNOSTIC_TRANSITION_MASTER_01.png` | `Jungle Cave Emergency Ward Corridor.png` | `file_00000000aba88210b0530ebcd5938c49` | LOCKED | Emergency → Diagnostic Laboratory transition |
+
+
+### Google Drive media backfill — completed
+
+| Canonical Filename | Drive File ID | Drive Folder |
+|---|---|---|
+| `JG_ENV_EMERGENCY_COVERED_ARRIVAL_TRANSITION_MASTER_01.png` | `1P09xBtKiKBmaIcvDvE4ctjnwX92ce8OO` | `02_ENVIRONMENTS` |
+| `JG_ENV_EMERGENCY_INTERIOR_MASTER_01.png` | `1SGEigWtKyLDB70E-orfPkZYGTE4umESh` | `02_ENVIRONMENTS` |
+| `JG_ENV_EMERGENCY_TREATMENT_BAY_MASTER_01.png` | `1TSDBu5IYb09BHRvfjlLpGBsjVxXIHaWc` | `02_ENVIRONMENTS` |
+| `JG_ENV_EMERGENCY_TO_DIAGNOSTIC_TRANSITION_MASTER_01.png` | `1xhSonofqcVkEGCeTX_4gomcNExTtSBWK` | `02_ENVIRONMENTS` |
+
+These Drive IDs are the persistent production-media locators for the approved 9:16 Emergency environment family.
 
 ### Locked topology
 
