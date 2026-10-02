@@ -4,7 +4,7 @@
 
 | Shot ID | Time | Scene / Beat | Production State | Recovered Asset / Reference | Continuity Notes |
 |---|---:|---|---|---|---|
-| JG-E01-S01-SH001 | 0:00–0:05 | Exterior storm / SUV approaches Emergency | REFERENCE RECOVERED; final video status unverified | `Jungle General Hospital Emergency Arrival.png` | 28mm wide intent; storm exterior |
+| JG-E01-S01-SH001 | 0:00–0:03 APPROVED EXCERPT | Exterior storm / SUV approaches Emergency | EDITORIAL SALVAGE APPROVED | Establishing-drive generation; production uses first 3 seconds only | SUV remains single during approved excerpt; later doubled-SUV frames are excluded. Cut before continuity failure. Environment handoff must conform to `JG_ENV_EMERGENCY_COVERED_ARRIVAL_TRANSITION_MASTER_01.png`. |
 | JG-E01-S02-SH001 | 0:05–0:11 | Family supports Mr. Okoro toward bed | RETRY REQUIRED | `Stormy Jungle Emergency Entrance.png` + locked family references | First Flow animation rejected; correct version starts after car exit |
 | JG-E01-S02-SH001-R1 | — | First Flow family-walk attempt | REJECTED / SUPERSEDED | exact video filename not recovered | Wrong entry from woods/camera-left; civilians became medical staff |
 | JG-E01-S03-SH001 | 0:11–0:24 | Emergency bedside examination/dialogue master | REFERENCE RECOVERED; coverage development active | `Jungle General Dialogue Coverage.png` | Four-character bedside setup; break dialogue into smaller shots |
@@ -20,13 +20,22 @@
 | JG-E01-S13-SH001 | 1:27–1:30 | Obinna already on next specimen / end | PLANNED | Diagnostic Lab master | Invisible-work payoff |
 
 ## Current Production Frontier
-The evidence-supported frontier is still within **Emergency arrival / bedside coverage**. Laboratory scenes are canonically specified but are not recorded here as completed generations.
+The evidence-supported frontier is now **after the approved 3-second establishing-drive excerpt and before the controlled family-support arrival shot**. Laboratory scenes are canonically specified but are not recorded here as completed generations.
 
 ### Immediate shot order
-1. Correct `JG-E01-S02-SH001` family-walk arrival.
-2. Separate handoff: Mr. Okoro reaches bed; clinical assistance; Dr. Talon enters.
-3. Build Scene 3 dialogue as smaller camera-angle clips using `Jungle General Dialogue Coverage.png`.
+1. Generate `JG-E01-S02-SH001` from the approved arrival handoff: Mr. Okoro is already out of the SUV and physically weak at the knees, supported by Chidi and Mrs. Okoro toward Emergency.
+2. Separate handoff: Mr. Okoro reaches the recessed treatment bay/bed; clinical assistance; Dr. Talon enters.
+3. Build Scene 3 dialogue as smaller camera-angle clips using approved character and environment authorities.
 4. Only then advance to specimen transition and laboratory sequence.
 
 ## Flow Rule
 One controlled action per clip. Do not combine arrival, handoff, examination and dialogue into one generation.
+
+
+## Editorial Salvage Decision — Establishing Drive
+- The generated establishing-drive clip is **not approved in full**.
+- Only the **first 3.0 seconds** are production-approved.
+- The cut is intentional to remove the later SUV duplication/continuity failure.
+- Rejected doubled-SUV frames must never be used as precursor/end-frame references.
+- The next shot starts after vehicle arrival/extraction; do not regenerate the problematic vehicle transition merely to bridge shots.
+- The canonical visible interior/arrival geography is controlled by `JG_ENV_EMERGENCY_COVERED_ARRIVAL_TRANSITION_MASTER_01.png` and the locked Emergency topology in the Reference Registry.
